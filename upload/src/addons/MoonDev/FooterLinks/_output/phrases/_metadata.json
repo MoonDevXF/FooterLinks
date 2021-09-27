@@ -1,0 +1,26 @@
+{
+    "permission.footerlinks_permissions_view_help.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "8efb7b884b42016f20ae4cbe4dc96947"
+    },
+    "permission.footerlinks_permissions_view_privacy_policy.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "c10274bc092d4b57b02bfbfcb8fea6de"
+    },
+    "permission.footerlinks_permissions_view_terms_and_rules.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "14ba67d473baaa74d268a9d51cdd2034"
+    },
+    "permission_interface.mdv_footerlinks_permissions.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "bc2c25def2c06c612710dc330fe13e6e"
+    }
+}

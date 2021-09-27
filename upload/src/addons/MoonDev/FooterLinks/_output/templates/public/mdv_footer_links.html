@@ -1,0 +1,17 @@
+<xf:if is="$xf.visitor.hasPermission('footerlinks_permissions','view_terms_and_rules')">
+	<xf:if is="$xf.tosUrl">
+		<li><a href="{$xf.tosUrl}">{{ phrase('terms_and_rules') }}</a></li>
+	</xf:if>
+</xf:if>
+
+<xf:if is="$xf.visitor.hasPermission('footerlinks_permissions','view_privacy_policy')">
+	<xf:if is="$xf.privacyPolicyUrl">
+		<li><a href="{$xf.privacyPolicyUrl}">{{ phrase('privacy_policy') }}</a></li>
+	</xf:if>
+</xf:if>
+
+<xf:if is="$xf.visitor.hasPermission('footerlinks_permissions','view_help')">
+	<xf:if is="$xf.helpPageCount">
+		<li><a href="{{ link('help') }}">{{ phrase('help') }}</a></li>
+	</xf:if>
+</xf:if>

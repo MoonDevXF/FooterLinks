@@ -1,0 +1,9 @@
+{
+    "template": "PAGE_CONTAINER",
+    "description": "",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "\t\t\t\t\t<xf:if is=\"$xf.tosUrl\">\n\t\t\t\t\t\t<li><a href=\"{$xf.tosUrl}\">{{ phrase('terms_and_rules') }}</a></li>\n\t\t\t\t\t</xf:if>\n\n\t\t\t\t\t<xf:if is=\"$xf.privacyPolicyUrl\">\n\t\t\t\t\t\t<li><a href=\"{$xf.privacyPolicyUrl}\">{{ phrase('privacy_policy') }}</a></li>\n\t\t\t\t\t</xf:if>\n\n\t\t\t\t\t<xf:if is=\"$xf.helpPageCount\">\n\t\t\t\t\t\t<li><a href=\"{{ link('help') }}\">{{ phrase('help') }}</a></li>\n\t\t\t\t\t</xf:if>",
+    "replace": "<xf:include template=\"mdv_footer_links\" />"
+}
