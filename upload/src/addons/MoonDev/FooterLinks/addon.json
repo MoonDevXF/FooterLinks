@@ -1,0 +1,16 @@
+{
+    "legacy_addon_id": "",
+    "title": "[MoonDev] Footer Links",
+    "description": "Adds rights to view some links in the footer",
+    "version_id": 1000070,
+    "version_string": "1.0.0",
+    "dev": "MoonDev Studios",
+    "dev_url": "https://moondev.ru/",
+    "faq_url": "",
+    "support_url": "",
+    "extra_urls": {
+        "Deku": "https://t.me/deku_fx"
+    },
+    "require": [],
+    "icon": "fas fa-unlink"
+}
