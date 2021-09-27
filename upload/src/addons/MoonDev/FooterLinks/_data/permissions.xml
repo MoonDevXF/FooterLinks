@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+  <permission permission_group_id="footerlinks_permissions" permission_id="view_help" permission_type="flag" interface_group_id="mdv_footerlinks_permissions" display_order="3"/>
+  <permission permission_group_id="footerlinks_permissions" permission_id="view_privacy_policy" permission_type="flag" interface_group_id="mdv_footerlinks_permissions" display_order="2"/>
+  <permission permission_group_id="footerlinks_permissions" permission_id="view_terms_and_rules" permission_type="flag" interface_group_id="mdv_footerlinks_permissions" display_order="1"/>
+</permissions>
